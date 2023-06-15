@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    body{
+        padding-top: 70px;
+        color:#5d8686 ;
+        background-color: #fefefe;
+    }
+    form{
+        background-color: #95c9b9d8;
+        width: 60%;
+        margin-top: 20px;
+        font-size: 120%;
+        padding: 25px;
+        border: .5px solid #89bcad;
+        border-radius: 10px;
+    }
+h1{
+    font-size: 50px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+     main{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    }
+
+    input{
+        padding-left: 2px;
+        border: 1px solid #83b1a3;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .account-input{
+        display: flex;
+    }
+    .sub-button{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+/* CSS */
+.order-button {
+    width: 150px;
+    height: 45px;
+  background: #3c756fd6;
+  border-radius: 999px;
+  box-shadow: #3c756fd6 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin: auto;
+}
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.tooltip{
+    display: none;
+    position: absolute;
+    left:55%;
+    top: 28%;
+    height:25px;
+    background-color: #b2c973bc;
+    padding: 10px;
+    border-radius: 10px;
+    color: #81a154d6;
+}
+
+.deliveryTime{
+    display: flex;
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+}
+.account-input input{
+    width:80%;
+}
+.deliveryTime input{
+    margin-left: 1rem;
+}

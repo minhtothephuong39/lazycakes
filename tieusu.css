@@ -1,0 +1,114 @@
+/* tieusu.css */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #95c9b9d8;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #95c9b9d8;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-members li {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+/* tieusu.css */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+body {
+    font-family: Georgia, Serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #95c9b9d8;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #95c9b9d8;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-members li {
+    margin-bottom: 20px;
+}
+.team-members{
+    display:flex;
+    gap:170px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
